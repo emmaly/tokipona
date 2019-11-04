@@ -1,1306 +1,2417 @@
 {
-  "a": {
-    "parts": {
-      "interj": {
-        "words": ["emotion word"],
-        "examples": ["ah!", "ha!", "oh!", "ooh!", "aw!"]
-      }
+    "key": {
+        "n": "head noun",
+        "mod": "modifier (adjective or adverb)",
+        "sep": "separator",
+        "vt": "verb, transitive (normally used with e)",
+        "vi": "verb, intransitive",
+        "interj": "interjection",
+        "prep": "quasi-preposition",
+        "conj": "conjunction",
+        "kama": "compound verb preceded by kama",
+        "cont": "context word used before la",
+        "oth": "special, other word"
+    },
+    "words": {
+        "a": {
+            "parts": {
+                "interj": {
+                    "words": [
+                        "emotion word"
+                    ],
+                    "examples": [
+                        "ah!",
+                        "ha!",
+                        "oh!",
+                        "ooh!",
+                        "aw!"
+                    ]
+                }
+            }
+        },
+        "akesi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "non-cute animal",
+                        "reptile",
+                        "amphibian",
+                        "dinosaur",
+                        "monster"
+                    ]
+                }
+            }
+        },
+        "ala": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "no",
+                        "not",
+                        "none",
+                        "un-"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "nothingness",
+                        "negation",
+                        "zero"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "no!"
+                    ]
+                }
+            }
+        },
+        "alasa": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "hunting-",
+                        "-hunting",
+                        "hunting"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "hunting"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to hunt",
+                        "to forage"
+                    ]
+                }
+            }
+        },
+        "ale": {
+            "synonyms": [
+                "ali"
+            ]
+        },
+        "ali": {
+            "synonyms": [
+                "ale"
+            ],
+            "parts": {
+                "n": {
+                    "words": [
+                        "everything",
+                        "anything",
+                        "life",
+                        "the universe"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "all",
+                        "every",
+                        "complete",
+                        "whole"
+                    ]
+                }
+            }
+        },
+        "anpa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "bottom",
+                        "down",
+                        "under",
+                        "below",
+                        "floor",
+                        "beneath"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "low",
+                        "lower",
+                        "bottom"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "lower",
+                        "down",
+                        "defeat",
+                        "overcome"
+                    ]
+                }
+            }
+        },
+        "ante": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "difference"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "different"
+                    ]
+                },
+                "cont": {
+                    "words": [
+                        "otherwise",
+                        "or else"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "change",
+                        "alter",
+                        "modify"
+                    ]
+                }
+            }
+        },
+        "anu": {
+            "parts": {
+                "conj": {
+                    "words": [
+                        "or"
+                    ]
+                }
+            }
+        },
+        "awen": {
+            "parts": {
+                "vi": {
+                    "words": [
+                        "stay",
+                        "wait",
+                        "remain"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "keep"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "remaining",
+                        "stationary",
+                        "permanent",
+                        "sedentary"
+                    ]
+                }
+            }
+        },
+        "e": {
+            "parts": {
+                "sep": {
+                    "words": [
+                        "(introduces a direct object)"
+                    ]
+                }
+            }
+        },
+        "en": {
+            "parts": {
+                "conj": {
+                    "words": [
+                        "and (used to coordinate head nouns)"
+                    ]
+                }
+            }
+        },
+        "esun": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "market",
+                        "shop",
+                        "fair",
+                        "bazaar",
+                        "business",
+                        "transaction"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "commercial",
+                        "trade",
+                        "marketable",
+                        "for sale",
+                        "salable",
+                        "deductible"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to buy",
+                        "to sell",
+                        "to barter",
+                        "to swap"
+                    ]
+                }
+            }
+        },
+        "ijo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "thing",
+                        "something",
+                        "stuff",
+                        "anything",
+                        "object"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "of something"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "objectify"
+                    ]
+                }
+            }
+        },
+        "ike": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "bad",
+                        "evil",
+                        "wrong",
+                        "evil",
+                        "overly complex",
+                        "(figuratively) unhealthy"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "oh dear!",
+                        "woe!",
+                        "alas!"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "negativity",
+                        "evil",
+                        "badness"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to make bad",
+                        "to worsen",
+                        "to have a negative effect upon"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "to be bad",
+                        "to suck"
+                    ]
+                }
+            }
+        },
+        "ilo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "tool",
+                        "device",
+                        "machine",
+                        "thing used for a specific purpose"
+                    ]
+                }
+            }
+        },
+        "insa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "inside",
+                        "inner world",
+                        "centre",
+                        "stomach"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "internal",
+                        "central"
+                    ]
+                }
+            }
+        },
+        "jaki": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "dirty",
+                        "gross",
+                        "filthy"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "dirt",
+                        "pollution",
+                        "filth"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "pollute",
+                        "dirty"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "ew!",
+                        "yuck!"
+                    ]
+                }
+            }
+        },
+        "jan": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "person",
+                        "people",
+                        "human",
+                        "being",
+                        "somebody",
+                        "anybody"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "personal",
+                        "human",
+                        "somebody's",
+                        "of people"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "personify",
+                        "humanize",
+                        "personalize"
+                    ]
+                }
+            }
+        },
+        "jelo": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "yellow",
+                        "light green"
+                    ]
+                }
+            }
+        },
+        "jo": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "have",
+                        "contain"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "having"
+                    ]
+                },
+                "kama": {
+                    "words": [
+                        "receive",
+                        "get",
+                        "take",
+                        "obtain"
+                    ]
+                }
+            }
+        },
+        "kala": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "fish",
+                        "sea creature"
+                    ]
+                }
+            }
+        },
+        "kalama": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "sound",
+                        "noise",
+                        "voice"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "make noise"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "sound",
+                        "ring",
+                        "play (an instrument)"
+                    ]
+                }
+            }
+        },
+        "kama": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "event",
+                        "happening",
+                        "chance",
+                        "arrival",
+                        "beginning"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "coming",
+                        "future"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "come",
+                        "become",
+                        "arrive",
+                        "happen",
+                        "pursue actions to arrive to (a certain state)",
+                        "manage to",
+                        "start to"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "bring about",
+                        "summon"
+                    ]
+                }
+            }
+        },
+        "kasi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "plant",
+                        "leaf",
+                        "herb",
+                        "tree",
+                        "wood"
+                    ]
+                }
+            }
+        },
+        "ken": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "possibility",
+                        "ability",
+                        "power to do things",
+                        "permission"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "can",
+                        "is able to",
+                        "is allowed to",
+                        "may",
+                        "is possible"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "make possible",
+                        "enable",
+                        "allow",
+                        "permit"
+                    ]
+                },
+                "cont": {
+                    "words": [
+                        "it is possible that"
+                    ]
+                }
+            }
+        },
+        "kepeken": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "use"
+                    ]
+                },
+                "prep": {
+                    "words": [
+                        "with"
+                    ]
+                }
+            }
+        },
+        "kili": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "fruit",
+                        "pulpy vegetable",
+                        "mushroom"
+                    ]
+                }
+            }
+        },
+        "kin": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "also",
+                        "too",
+                        "even",
+                        "indeed (emphasizes the word that follows)"
+                    ]
+                }
+            }
+        },
+        "kipisi": {
+            "unofficial": true,
+            "parts": {
+                "n": {
+                    "words": [
+                        "section",
+                        "fragment",
+                        "slice"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to cut"
+                    ]
+                }
+            }
+        },
+        "kiwen": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "hard thing",
+                        "rock",
+                        "stone",
+                        "metal",
+                        "mineral",
+                        "clay"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "hard",
+                        "solid",
+                        "stone-like",
+                        "made of stone or metal"
+                    ]
+                }
+            }
+        },
+        "ko": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "clay",
+                        "clinging form",
+                        "dough",
+                        "semi-solid",
+                        "paste",
+                        "powder"
+                    ]
+                }
+            }
+        },
+        "kon": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "air",
+                        "wind",
+                        "odour",
+                        "soul"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "air-like",
+                        "ethereal",
+                        "gaseous"
+                    ]
+                }
+            }
+        },
+        "kule": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "color",
+                        "paint"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "color",
+                        "paint"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "colourful"
+                    ]
+                }
+            }
+        },
+        "kulupu": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "group",
+                        "community",
+                        "society",
+                        "company"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "communal",
+                        "shared",
+                        "public",
+                        "of the society"
+                    ]
+                }
+            }
+        },
+        "kute": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "listen",
+                        "hear"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "auditory",
+                        "hearing"
+                    ]
+                }
+            }
+        },
+        "la": {
+            "parts": {
+                "sep": {
+                    "words": [
+                        "(between adverb or phrase of context and sentence)"
+                    ]
+                }
+            }
+        },
+        "lape": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "sleep",
+                        "rest"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "sleep",
+                        "rest"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "sleeping",
+                        "of sleep laso mod blue",
+                        "blue-green"
+                    ]
+                }
+            }
+        },
+        "laso": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "blue",
+                        "blue-green"
+                    ]
+                }
+            }
+        },
+        "lawa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "head",
+                        "mind"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "main",
+                        "leading",
+                        "in charge"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "lead",
+                        "control",
+                        "rule",
+                        "steer"
+                    ]
+                }
+            }
+        },
+        "len": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "clothing",
+                        "cloth",
+                        "fabric"
+                    ]
+                }
+            }
+        },
+        "lete": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "cold"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "cold",
+                        "uncooked"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "cool down",
+                        "chill",
+                        "freeze"
+                    ]
+                }
+            }
+        },
+        "li": {
+            "parts": {
+                "sep": {
+                    "words": [
+                        "(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"
+                    ]
+                }
+            }
+        },
+        "lili": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "small",
+                        "little",
+                        "young",
+                        "a bit",
+                        "short",
+                        "fes",
+                        "less"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "reduce",
+                        "shorten",
+                        "shrink",
+                        "lessen"
+                    ]
+                }
+            }
+        },
+        "linja": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "long",
+                        "very thin",
+                        "floppy thing"
+                    ],
+                    "examples": [
+                        "string",
+                        "rope",
+                        "hair",
+                        "thread",
+                        "cord",
+                        "chain"
+                    ]
+                }
+            }
+        },
+        "lipu": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "flat and bendable thing"
+                    ],
+                    "examples": [
+                        "paper",
+                        "card",
+                        "ticket"
+                    ]
+                }
+            }
+        },
+        "loje": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "red"
+                    ]
+                }
+            }
+        },
+        "lon": {
+            "parts": {
+                "prep": {
+                    "words": [
+                        "be located in/at/on"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "be there",
+                        "be present",
+                        "be real/true",
+                        "exist",
+                        "be awake"
+                    ]
+                }
+            }
+        },
+        "luka": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "hand",
+                        "arm"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "five"
+                    ]
+                }
+            }
+        },
+        "lukin": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "see",
+                        "look at",
+                        "watch",
+                        "read"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "look",
+                        "watch out",
+                        "pay attention"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "visual",
+                        "to seek to",
+                        "try to",
+                        "look for"
+                    ]
+                }
+            }
+        },
+        "lupa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "hole",
+                        "orifice",
+                        "window",
+                        "door"
+                    ]
+                }
+            }
+        },
+        "ma": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "land",
+                        "earth",
+                        "country",
+                        "(outdoor) area"
+                    ]
+                }
+            }
+        },
+        "mama": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "parent",
+                        "mother",
+                        "father"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "of the parent",
+                        "parental",
+                        "maternal",
+                        "fatherly"
+                    ]
+                }
+            }
+        },
+        "mani": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "money",
+                        "material wealth",
+                        "currency",
+                        "dollar",
+                        "capital"
+                    ]
+                }
+            }
+        },
+        "meli": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "woman",
+                        "female",
+                        "girl",
+                        "wife",
+                        "girlfriend"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "female",
+                        "feminine",
+                        "womanly"
+                    ]
+                }
+            }
+        },
+        "mi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "I",
+                        "we"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "my",
+                        "our"
+                    ]
+                }
+            }
+        },
+        "mije": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "man",
+                        "male",
+                        "husband",
+                        "boyfriend"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "male",
+                        "masculine",
+                        "manly"
+                    ]
+                }
+            }
+        },
+        "moku": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "food",
+                        "meal"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "eat",
+                        "drink",
+                        "swallow",
+                        "ingest",
+                        "consume"
+                    ]
+                }
+            }
+        },
+        "moli": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "death"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "dead",
+                        "deadly",
+                        "fatal"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "kill"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "die",
+                        "be dead"
+                    ]
+                }
+            }
+        },
+        "monsi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "back",
+                        "rear end",
+                        "butt",
+                        "behind"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "back",
+                        "rear"
+                    ]
+                }
+            }
+        },
+        "monsuta": {
+            "unofficial": true,
+            "parts": {
+                "n": {
+                    "words": [
+                        "back",
+                        "rear end",
+                        "butt",
+                        "behind"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "monster",
+                        "monstrosity",
+                        "fearful thing",
+                        "fright",
+                        "mythical creatures",
+                        "fear"
+                    ]
+                }
+            }
+        },
+        "mu": {
+            "parts": {
+                "interj": {
+                    "words": [
+                        "cute animal noise"
+                    ],
+                    "examples": [
+                        "woof!",
+                        "meow!",
+                        "moo!"
+                    ]
+                }
+            }
+        },
+        "mun": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "moon"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "lunar"
+                    ]
+                }
+            }
+        },
+        "musi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "fun",
+                        "playing",
+                        "game",
+                        "recreation",
+                        "art",
+                        "entertainment"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "artful",
+                        "fun",
+                        "recreational"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "play",
+                        "have fun"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "amuse",
+                        "entertain"
+                    ]
+                }
+            }
+        },
+        "mute": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "many",
+                        "several",
+                        "very",
+                        "much",
+                        "a lot",
+                        "abundant",
+                        "numerous",
+                        "more"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "amount",
+                        "quantity"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "make many or much"
+                    ]
+                }
+            }
+        },
+        "namako": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "spice",
+                        "something extra",
+                        "food additive",
+                        "accessory"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to spice",
+                        "to flavor",
+                        "to decorate"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "spicy",
+                        "piquant"
+                    ]
+                }
+            }
+        },
+        "nanpa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "number"
+                    ]
+                },
+                "oth": {
+                    "words": [
+                        "-th (ordinal numbers)"
+                    ]
+                }
+            }
+        },
+        "nasa": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "silly",
+                        "crazy",
+                        "foolish",
+                        "drunk",
+                        "strange",
+                        "stupid",
+                        "weird"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "drive crazy",
+                        "make weird"
+                    ]
+                }
+            }
+        },
+        "nasin": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "way",
+                        "manner",
+                        "custom",
+                        "road",
+                        "path",
+                        "doctrine",
+                        "system",
+                        "method"
+                    ]
+                }
+            }
+        },
+        "nena": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "bump",
+                        "hill",
+                        "mountain",
+                        "button",
+                        "nose"
+                    ]
+                }
+            }
+        },
+        "ni": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "this",
+                        "that"
+                    ]
+                }
+            }
+        },
+        "nimi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "word",
+                        "name"
+                    ]
+                }
+            }
+        },
+        "noka": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "leg",
+                        "foot"
+                    ]
+                }
+            }
+        },
+        "o": {
+            "parts": {
+                "sep": {
+                    "words": [
+                        "O (vocative or imperative)"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "hey! (calling somebody's attention)"
+                    ]
+                }
+            }
+        },
+        "oko": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "eye"
+                    ]
+                }
+            }
+        },
+        "olin": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "love"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "love"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to love (a person)"
+                    ]
+                }
+            }
+        },
+        "ona": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "he",
+                        "she",
+                        "it",
+                        "they"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "his",
+                        "her",
+                        "its",
+                        "their"
+                    ]
+                }
+            }
+        },
+        "open": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "open",
+                        "turn on"
+                    ]
+                }
+            }
+        },
+        "pakala": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "blunder",
+                        "accident",
+                        "mistake",
+                        "destruction",
+                        "damage",
+                        "breaking"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "screw up",
+                        "fuck up",
+                        "botch",
+                        "ruin",
+                        "break",
+                        "hurt",
+                        "injure",
+                        "damage",
+                        "bungle",
+                        "spoil",
+                        "ruin"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "screw up",
+                        "fall apart",
+                        "break"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "damn!",
+                        "fuck!"
+                    ]
+                }
+            }
+        },
+        "pali": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "activity",
+                        "work",
+                        "deed",
+                        "project"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "active",
+                        "work-related",
+                        "operating",
+                        "working"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "do",
+                        "make",
+                        "build",
+                        "create"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "act",
+                        "work",
+                        "function"
+                    ]
+                }
+            }
+        },
+        "palisa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "long",
+                        "mostly hard object"
+                    ],
+                    "examples": [
+                        "rod",
+                        "stick",
+                        "branch"
+                    ]
+                }
+            }
+        },
+        "pana": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "give",
+                        "put",
+                        "send",
+                        "place",
+                        "release",
+                        "emit",
+                        "cause"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "giving",
+                        "transfer",
+                        "exchange"
+                    ]
+                }
+            }
+        },
+        "pi": {
+            "parts": {
+                "sep": {
+                    "words": [
+                        "of",
+                        "belonging to"
+                    ]
+                }
+            }
+        },
+        "pilin": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "feelings",
+                        "emotion",
+                        "heart"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "feel"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "feel",
+                        "think",
+                        "sense",
+                        "touch"
+                    ]
+                }
+            }
+        },
+        "pimeja": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "black",
+                        "dark"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "darkness",
+                        "shadows"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "darken"
+                    ]
+                }
+            }
+        },
+        "pini": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "end",
+                        "tip"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "completed",
+                        "finished",
+                        "past",
+                        "done",
+                        "ago"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "finish",
+                        "close",
+                        "end",
+                        "turn off"
+                    ]
+                }
+            }
+        },
+        "pipi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "bug",
+                        "insect",
+                        "spider"
+                    ]
+                }
+            }
+        },
+        "poka": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "side",
+                        "hip",
+                        "next to"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "neighboring"
+                    ]
+                },
+                "prep": {
+                    "words": [
+                        "in the accompaniment of",
+                        "with"
+                    ]
+                }
+            }
+        },
+        "poki": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "container",
+                        "box",
+                        "bowl",
+                        "cup",
+                        "glass"
+                    ]
+                }
+            }
+        },
+        "pona": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "good",
+                        "simplicity",
+                        "positivity"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "good",
+                        "simple",
+                        "positive",
+                        "nice",
+                        "correct",
+                        "right"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "great!",
+                        "good!",
+                        "thanks!",
+                        "OK!",
+                        "cool!",
+                        "yay!"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "improve",
+                        "fix",
+                        "repair",
+                        "make good"
+                    ]
+                }
+            }
+        },
+        "pu": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "buying and interacting with the official Toki Pona book"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "buying and interacting with the official Toki Pona book"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "to apply (the official Toki Pona book) to…"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "to buy and to read (the official Toki Pona book)"
+                    ]
+                }
+            }
+        },
+        "sama": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "same",
+                        "similar",
+                        "equal",
+                        "of equal status or position"
+                    ]
+                },
+                "prep": {
+                    "words": [
+                        "like",
+                        "as",
+                        "seem"
+                    ]
+                },
+                "cont": {
+                    "words": [
+                        "similarly",
+                        "in the same way that"
+                    ]
+                }
+            }
+        },
+        "seli": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "fire",
+                        "warmth",
+                        "heat"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "hot",
+                        "warm",
+                        "cooked"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "heat",
+                        "warm up",
+                        "cook"
+                    ]
+                }
+            }
+        },
+        "selo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "outside",
+                        "surface",
+                        "skin",
+                        "shell",
+                        "bark",
+                        "shape",
+                        "peel"
+                    ]
+                }
+            }
+        },
+        "seme": {
+            "parts": {
+                "oth": {
+                    "words": [
+                        "what",
+                        "which",
+                        "wh- (question word)"
+                    ]
+                }
+            }
+        },
+        "sewi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "high",
+                        "up",
+                        "above",
+                        "top",
+                        "over",
+                        "on"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "superior",
+                        "elevated",
+                        "religious",
+                        "formal"
+                    ]
+                }
+            }
+        },
+        "sijelo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "body",
+                        "physical state"
+                    ]
+                }
+            }
+        },
+        "sike": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "circle",
+                        "wheel",
+                        "sphere",
+                        "ball",
+                        "cycle"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "round",
+                        "cyclical"
+                    ]
+                }
+            }
+        },
+        "sin": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "new",
+                        "fresh",
+                        "another",
+                        "more"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "renew",
+                        "renovate",
+                        "freshen"
+                    ]
+                }
+            }
+        },
+        "sina": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "you"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "your"
+                    ]
+                }
+            }
+        },
+        "sinpin": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "front",
+                        "chest",
+                        "torso",
+                        "wall"
+                    ]
+                }
+            }
+        },
+        "sitelen": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "picture",
+                        "image"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "draw",
+                        "write"
+                    ]
+                }
+            }
+        },
+        "sona": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "knowledge",
+                        "wisdom",
+                        "intelligence",
+                        "understanding"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "know",
+                        "understand",
+                        "know how to"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "know",
+                        "understand"
+                    ]
+                },
+                "kama": [
+                    "learn",
+                    "study"
+                ]
+            }
+        },
+        "soweli": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "animal",
+                        "especially land mammal",
+                        "lovable animal"
+                    ]
+                }
+            }
+        },
+        "suli": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "big",
+                        "tall",
+                        "long",
+                        "adult",
+                        "important"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "enlarge",
+                        "lengthen"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "size"
+                    ]
+                }
+            }
+        },
+        "suno": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "sun",
+                        "light"
+                    ]
+                }
+            }
+        },
+        "supa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "horizontal surface"
+                    ],
+                    "examples": [
+                        "furniture",
+                        "table",
+                        "chair",
+                        "pillow",
+                        "floor"
+                    ]
+                }
+            }
+        },
+        "suwi": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "candy",
+                        "sweet food"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "sweet",
+                        "cute"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "sweeten"
+                    ]
+                }
+            }
+        },
+        "tan": {
+            "parts": {
+                "prep": {
+                    "words": [
+                        "from",
+                        "by",
+                        "because of",
+                        "since"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "origin",
+                        "cause"
+                    ]
+                }
+            }
+        },
+        "taso": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "only",
+                        "sole"
+                    ]
+                },
+                "conj": {
+                    "words": [
+                        "but"
+                    ]
+                }
+            }
+        },
+        "tawa": {
+            "parts": {
+                "prep": {
+                    "words": [
+                        "to",
+                        "in order to",
+                        "towards",
+                        "for",
+                        "until"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "movement",
+                        "transportation"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "moving",
+                        "mobile"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "go",
+                        "leave",
+                        "walk",
+                        "travel",
+                        "move"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "move",
+                        "displace"
+                    ]
+                }
+            }
+        },
+        "telo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "water",
+                        "liquid",
+                        "juice",
+                        "sauce"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "water",
+                        "wash with water"
+                    ]
+                }
+            }
+        },
+        "tenpo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "time",
+                        "period of time",
+                        "moment",
+                        "duration",
+                        "situation"
+                    ]
+                }
+            }
+        },
+        "toki": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "language",
+                        "talking",
+                        "speech",
+                        "communication"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "say"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "talk",
+                        "chat",
+                        "communicate"
+                    ]
+                },
+                "interj": {
+                    "words": [
+                        "hello!",
+                        "hi!"
+                    ]
+                }
+            }
+        },
+        "tomo": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "indoor constructed space"
+                    ],
+                    "examples": [
+                        "house",
+                        "home",
+                        "room",
+                        "building"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "urban",
+                        "domestic",
+                        "household"
+                    ]
+                }
+            }
+        },
+        "tu": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "two"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "duo",
+                        "pair"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "double",
+                        "separate/cut/divide in two"
+                    ]
+                }
+            }
+        },
+        "unpa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "sex",
+                        "sexuality"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "erotic",
+                        "sexual"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "have sex with",
+                        "sleep with",
+                        "fuck"
+                    ]
+                },
+                "vi": {
+                    "words": [
+                        "have sex"
+                    ]
+                }
+            }
+        },
+        "uta": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "mouth"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "oral"
+                    ]
+                }
+            }
+        },
+        "utala": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "conflict",
+                        "disharmony",
+                        "competition",
+                        "fight",
+                        "war",
+                        "battle",
+                        "attack",
+                        "blow",
+                        "argument",
+                        "physical or verbal violence"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "hit",
+                        "strike",
+                        "attack",
+                        "compete against"
+                    ]
+                }
+            }
+        },
+        "walo": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "white",
+                        "light (colour)"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "white thing/part",
+                        "whiteness",
+                        "lightness"
+                    ]
+                }
+            }
+        },
+        "wan": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "one",
+                        "a"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "unit",
+                        "element",
+                        "particle",
+                        "part",
+                        "piece"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "unite",
+                        "make one"
+                    ]
+                }
+            }
+        },
+        "waso": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "bird",
+                        "winged animal"
+                    ]
+                }
+            }
+        },
+        "wawa": {
+            "parts": {
+                "n": {
+                    "words": [
+                        "energy",
+                        "strength",
+                        "power"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "energetic",
+                        "strong",
+                        "fierce",
+                        "intense",
+                        "sure",
+                        "confident"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "strengthen",
+                        "energize",
+                        "empower"
+                    ]
+                }
+            }
+        },
+        "weka": {
+            "parts": {
+                "mod": {
+                    "words": [
+                        "away",
+                        "absent",
+                        "missing"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "absence"
+                    ]
+                },
+                "vt": {
+                    "words": [
+                        "throw away",
+                        "remove",
+                        "get rid of"
+                    ]
+                }
+            }
+        },
+        "wile": {
+            "parts": {
+                "vt": {
+                    "words": [
+                        "to want",
+                        "need",
+                        "wish",
+                        "have to",
+                        "must",
+                        "will",
+                        "should"
+                    ]
+                },
+                "n": {
+                    "words": [
+                        "desire",
+                        "need",
+                        "will"
+                    ]
+                },
+                "mod": {
+                    "words": [
+                        "necessary"
+                    ]
+                }
+            }
+        }
     }
-  },
-  "akesi": {
-    "parts": {
-      "n": {
-        "words": ["non-cute animal", "reptile", "amphibian", "dinosaur", "monster"]
-      }
-    }
-  },
-  "ala": {
-    "parts": {
-      "mod": {
-        "words": ["no", "not", "none", "un-"]
-      },
-      "n": {
-        "words": ["nothingness", "negation", "zero"]
-      },
-      "interj": {
-        "words": ["no!"]
-      }
-    }
-  },
-  "alasa": {
-    "parts": {
-      "mod": {
-        "words": ["hunting-", "-hunting", "hunting"]
-      },
-      "n": {
-        "words": ["hunting"]
-      },
-      "vt": {
-        "words": ["to hunt", "to forage"]
-      }
-    }
-  },
-  "ale": {
-    "synonyms": ["ali"]
-  },
-  "ali": {
-    "synonyms": ["ale"],
-    "parts": {
-      "n": {
-        "words": ["everything", "anything", "life", "the universe"]
-      },
-      "mod": {
-        "words": ["all", "every", "complete", "whole"]
-      }
-    }
-  },
-  "anpa": {
-    "parts": {
-      "n": {
-        "words": ["bottom", "down", "under", "below", "floor", "beneath"]
-      },
-      "mod": {
-        "words": ["low", "lower", "bottom"]
-      },
-      "vt": {
-        "words": ["lower", "down", "defeat", "overcome"]
-      }
-    }
-  },
-  "ante": {
-    "parts": {
-      "n": {
-        "words": ["difference"]
-      },
-      "mod": {
-        "words": ["different"]
-      },
-      "cont": {
-        "words": ["otherwise", "or else"]
-      },
-      "vt": {
-        "words": ["change", "alter", "modify"]
-      }
-    }
-  },
-  "anu": {
-    "parts": {
-      "conj": {
-        "words": ["or"]
-      }
-    }
-  },
-  "awen": {
-    "parts": {
-      "vi": {
-        "words": ["stay", "wait", "remain"]
-      },
-      "vt": {
-        "words": ["keep"]
-      },
-      "mod": {
-        "words": ["remaining", "stationary", "permanent", "sedentary"]
-      }
-    }
-  },
-  "e": {
-    "parts": {
-      "sep": {
-        "words": ["(introduces a direct object)"]
-      }
-    }
-  },
-  "en": {
-    "parts": {
-      "conj": {
-        "words": ["and (used to coordinate head nouns)"]
-      }
-    }
-  },
-  "esun": {
-    "parts": {
-      "n": {
-        "words": ["market", "shop", "fair", "bazaar", "business", "transaction"]
-      },
-      "mod": {
-        "words": ["commercial", "trade", "marketable", "for sale", "salable", "deductible"]
-      },
-      "vt": {
-        "words": ["to buy", "to sell", "to barter", "to swap"]
-      }
-    }
-  },
-  "ijo": {
-    "parts": {
-      "n": {
-        "words": ["thing", "something", "stuff", "anything", "object"]
-      },
-      "mod": {
-        "words": ["of something"]
-      },
-      "vt": {
-        "words": ["objectify"]
-      }
-    }
-  },
-  "ike": {
-    "parts": {
-      "mod": {
-        "words": ["bad", "evil", "wrong", "evil", "overly complex", "(figuratively) unhealthy"]
-      },
-      "interj": {
-        "words": ["oh dear! woe! alas!"]
-      },
-      "n": {
-        "words": ["negativity", "evil", "badness"]
-      },
-      "vt": {
-        "words": ["to make bad", "to worsen", "to have a negative effect upon"]
-      },
-      "vi": {
-        "words": ["to be bad", "to suck"]
-      }
-    }
-  },
-  "ilo": {
-    "parts": {
-      "n": {
-        "words": ["tool", "device", "machine", "thing used for a specific purpose"]
-      }
-    }
-  },
-  "insa": {
-    "parts": {
-      "n": {
-        "words": ["inside", "inner world", "centre", "stomach"]
-      },
-      "mod": {
-        "words": ["internal", "central"]
-      }
-    }
-  },
-  "jaki": {
-    "parts": {
-      "mod": {
-        "words": ["dirty", "gross", "filthy"]
-      },
-      "n": {
-        "words": ["dirt", "pollution", "filth"]
-      },
-      "vt": {
-        "words": ["pollute", "dirty"]
-      },
-      "interj": {
-        "words": ["ew! yuck!"]
-      }
-    }
-  },
-  "jan": {
-    "parts": {
-      "n": {
-        "words": ["person", "people", "human", "being", "somebody", "anybody"]
-      },
-      "mod": {
-        "words": ["personal", "human", "somebody's", "of people"]
-      },
-      "vt": {
-        "words": ["personify", "humanize", "personalize"]
-      }
-    }
-  },
-  "jelo": {
-    "parts": {
-      "mod": {
-        "words": ["yellow", "light green"]
-      }
-    }
-  },
-  "jo": {
-    "parts": {
-      "vt": {
-        "words": ["have", "contain"]
-      },
-      "n": {
-        "words": ["having"]
-      },
-      "kama": ["receive", "get", "take", "obtain"]
-    }
-  },
-  "kala": {
-    "parts": {
-      "n": {
-        "words": ["fish", "sea creature"]
-      }
-    }
-  },
-  "kalama": {
-    "parts": {
-      "n": {
-        "words": ["sound", "noise", "voice"]
-      },
-      "vi": {
-        "words": ["make noise"]
-      },
-      "vt": {
-        "words": ["sound", "ring", "play (an instrument)"]
-      }
-    }
-  },
-  "kama": {
-    "parts": {
-      "n": {
-        "words": ["event", "happening", "chance", "arrival", "beginning"]
-      },
-      "mod": {
-        "words": ["coming", "future"]
-      },
-      "vi": {
-        "words": ["come", "become", "arrive", "happen", "pursue actions to arrive to (a certain state)", "manage to", "start to"]
-      },
-      "vt": {
-        "words": ["bring about", "summon"]
-      }
-    }
-  },
-  "kasi": {
-    "parts": {
-      "n": {
-        "words": ["plant", "leaf", "herb", "tree", "wood"]
-      }
-    }
-  },
-  "ken": {
-    "parts": {
-      "n": {
-        "words": ["possibility", "ability", "power to do things", "permission"]
-      },
-      "vi": {
-        "words": ["can", "is able to", "is allowed to", "may", "is possible"]
-      },
-      "vt": {
-        "words": ["make possible", "enable", "allow", "permit"]
-      },
-      "cont": {
-        "words": ["it is possible that"]
-      }
-    }
-  },
-  "kepeken": {
-    "parts": {
-      "vt": {
-        "words": ["use"]
-      },
-      "prep": {
-        "words": ["with"]
-      }
-    }
-  },
-  "kili": {
-    "parts": {
-      "n": {
-        "words": ["fruit", "pulpy vegetable", "mushroom"]
-      }
-    }
-  },
-  "kin": {
-    "parts": {
-      "mod": {
-        "words": ["also", "too", "even", "indeed (emphasizes the word that follows)"]
-      }
-    }
-  },
-  "kipisi": {
-    "parts": {
-      "n*": {
-        "words": ["section", "fragment", "slice"]
-      },
-      "vt*": {
-        "words": ["to cut"]
-      }
-    }
-  },
-  "kiwen": {
-    "parts": {
-      "n": {
-        "words": ["hard thing", "rock", "stone", "metal", "mineral", "clay"]
-      },
-      "mod": {
-        "words": ["hard", "solid", "stone-like", "made of stone or metal"]
-      }
-    }
-  },
-  "ko": {
-    "parts": {
-      "mod": {
-        "words": ["clay", "clinging form", "dough", "semi-solid", "paste", "powder"]
-      }
-    }
-  },
-  "kon": {
-    "parts": {
-      "n": {
-        "words": ["air", "wind", "odour", "soul"]
-      },
-      "mod": {
-        "words": ["air-like", "ethereal", "gaseous"]
-      }
-    }
-  },
-  "kule": {
-    "parts": {
-      "n": {
-        "words": ["color", "paint"]
-      },
-      "vt": {
-        "words": ["color", "paint"]
-      },
-      "mod": {
-        "words": ["colourful"]
-      }
-    }
-  },
-  "kulupu": {
-    "parts": {
-      "n": {
-        "words": ["group", "community", "society", "company"]
-      },
-      "mod": {
-        "words": ["communal", "shared", "public", "of the society"]
-      }
-    }
-  },
-  "kute": {
-    "parts": {
-      "vt": {
-        "words": ["listen", "hear"]
-      },
-      "mod": {
-        "words": ["auditory", "hearing"]
-      }
-    }
-  },
-  "la": {
-    "parts": {
-      "sep": {
-        "words": ["(between adverb or phrase of context and sentence)"]
-      }
-    }
-  },
-  "lape": {
-    "parts": {
-      "n": {
-        "words": ["sleep", "rest"]
-      },
-      "vi": {
-        "words": ["sleep", "rest"]
-      },
-      "mod": {
-        "words": ["sleeping", "of sleep laso mod blue", "blue-green"]
-      }
-    }
-  },
-  "laso": {
-    "parts": {
-      "mod": {
-        "words": ["blue", "blue-green"]
-      }
-    }
-  },
-  "lawa": {
-    "parts": {
-      "n": {
-        "words": ["head", "mind"]
-      },
-      "mod": {
-        "words": ["main", "leading", "in charge"]
-      },
-      "vt": {
-        "words": ["lead", "control", "rule", "steer"]
-      }
-    }
-  },
-  "len": {
-    "parts": {
-      "n": {
-        "words": ["clothing", "cloth", "fabric"]
-      }
-    }
-  },
-  "lete": {
-    "parts": {
-      "n": {
-        "words": ["cold"]
-      },
-      "mod": {
-        "words": ["cold", "uncooked"]
-      },
-      "vt": {
-        "words": ["cool down", "chill", "freeze"]
-      }
-    }
-  },
-  "li": {
-    "parts": {
-      "sep": {
-        "words": ["(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"]
-      }
-    }
-  },
-  "lili": {
-    "parts": {
-      "mod": {
-        "words": ["small", "little", "young", "a bit", "short", "fes", "less"]
-      },
-      "vt": {
-        "words": ["reduce", "shorten", "shrink", "lessen"]
-      }
-    }
-  },
-  "linja": {
-    "parts": {
-      "n": {
-        "words": ["long", "very thin", "floppy thing"],
-        "examples": ["string", "rope", "hair", "thread", "cord", "chain"]
-      }
-    }
-  },
-  "lipu": {
-    "parts": {
-      "n": {
-        "words": ["flat and bendable thing"],
-        "examples": ["paper", "card", "ticket"]
-      }
-    }
-  },
-  "loje": {
-    "parts": {
-      "mod": {
-        "words": ["red"]
-      }
-    }
-  },
-  "lon": {
-    "parts": {
-      "prep": {
-        "words": ["be located in/at/on"]
-      },
-      "vi": {
-        "words": ["be there", "be present", "be real/true", "exist", "be awake"]
-      }
-    }
-  },
-  "luka": {
-    "parts": {
-      "n": {
-        "words": ["hand", "arm"]
-      },
-      "mod": {
-        "words": ["five"]
-      }
-    }
-  },
-  "lukin": {
-    "parts": {
-      "vt": {
-        "words": ["see", "look at", "watch", "read"]
-      },
-      "vi": {
-        "words": ["look", "watch out", "pay attention"]
-      },
-      "mod": {
-        "words": ["visual", "to seek to", "try to", "look for"]
-      }
-    }
-  },
-  "lupa": {
-    "parts": {
-      "n": {
-        "words": ["hole", "orifice", "window", "door"]
-      }
-    }
-  },
-  "ma": {
-    "parts": {
-      "n": {
-        "words": ["land", "earth", "country", "(outdoor) area"]
-      }
-    }
-  },
-  "mama": {
-    "parts": {
-      "n": {
-        "words": ["parent", "mother", "father"]
-      },
-      "mod": {
-        "words": ["of the parent", "parental", "maternal", "fatherly"]
-      }
-    }
-  },
-  "mani": {
-    "parts": {
-      "n": {
-        "words": ["money", "material wealth", "currency", "dollar", "capital"]
-      }
-    }
-  },
-  "meli": {
-    "parts": {
-      "n": {
-        "words": ["woman", "female", "girl", "wife", "girlfriend"]
-      },
-      "mod": {
-        "words": ["female", "feminine", "womanly"]
-      }
-    }
-  },
-  "mi": {
-    "parts": {
-      "n": {
-        "words": ["I", "we"]
-      },
-      "mod": {
-        "words": ["my", "our"]
-      }
-    }
-  },
-  "mije": {
-    "parts": {
-      "n": {
-        "words": ["man", "male", "husband", "boyfriend"]
-      },
-      "mod": {
-        "words": ["male", "masculine", "manly"]
-      }
-    }
-  },
-  "moku": {
-    "parts": {
-      "n": {
-        "words": ["food", "meal"]
-      },
-      "vt": {
-        "words": ["eat", "drink", "swallow", "ingest", "consume"]
-      }
-    }
-  },
-  "moli": {
-    "parts": {
-      "n": {
-        "words": ["death"]
-      },
-      "mod": {
-        "words": ["dead", "deadly", "fatal"]
-      },
-      "vt": {
-        "words": ["kill"]
-      },
-      "vi": {
-        "words": ["die", "be dead"]
-      }
-    }
-  },
-  "monsi": {
-    "parts": {
-      "n": {
-        "words": ["back", "rear end", "butt", "behind"]
-      },
-      "mod": {
-        "words": ["back", "rear"]
-      }
-    }
-  },
-  "monsuta": {
-    "parts": {
-      "n*": {
-        "words": ["back", "rear end", "butt", "behind"]
-      },
-      "mod*": {
-        "words": ["monster", "monstrosity", "fearful thing", "fright", "mythical creatures", "fear"]
-      }
-    }
-  },
-  "mu": {
-    "parts": {
-      "interj": {
-        "words": ["cute animal noise"],
-        "examples": ["woof!", "meow!", "moo!"]
-      }
-    }
-  },
-  "mun": {
-    "parts": {
-      "n": {
-        "words": ["moon"]
-      },
-      "mod": {
-        "words": ["lunar"]
-      }
-    }
-  },
-  "musi": {
-    "parts": {
-      "n": {
-        "words": ["fun", "playing", "game", "recreation", "art", "entertainment"]
-      },
-      "mod": {
-        "words": ["artful", "fun", "recreational"]
-      },
-      "vi": {
-        "words": ["play", "have fun"]
-      },
-      "vt": {
-        "words": ["amuse", "entertain"]
-      }
-    }
-  },
-  "mute": {
-    "parts": {
-      "mod": {
-        "words": ["many", "several", "very", "much", "a lot", "abundant", "numerous", "more"]
-      },
-      "n": {
-        "words": ["amount", "quantity"]
-      },
-      "vt": {
-        "words": ["make many or much"]
-      }
-    }
-  },
-  "namako": {
-    "parts": {
-      "n": {
-        "words": ["spice", "something extra", "food additive", "accessory"]
-      },
-      "vt": {
-        "words": ["to spice", "to flavor", "to decorate"]
-      },
-      "mod": {
-        "words": ["spicy", "piquant"]
-      }
-    }
-  },
-  "nanpa": {
-    "parts": {
-      "n": {
-        "words": ["number"]
-      },
-      "oth": {
-        "words": ["-th (ordinal numbers)"]
-      }
-    }
-  },
-  "nasa": {
-    "parts": {
-      "mod": {
-        "words": ["silly", "crazy", "foolish", "drunk", "strange", "stupid", "weird"]
-      },
-      "vt": {
-        "words": ["drive crazy", "make weird"]
-      }
-    }
-  },
-  "nasin": {
-    "parts": {
-      "n": {
-        "words": ["way", "manner", "custom", "road", "path", "doctrine", "system", "method"]
-      }
-    }
-  },
-  "nena": {
-    "parts": {
-      "n": {
-        "words": ["bump", "hill", "mountain", "button", "nose"]
-      }
-    }
-  },
-  "ni": {
-    "parts": {
-      "mod": {
-        "words": ["this", "that"]
-      }
-    }
-  },
-  "nimi": {
-    "parts": {
-      "n": {
-        "words": ["word", "name"]
-      }
-    }
-  },
-  "noka": {
-    "parts": {
-      "n": {
-        "words": ["leg", "foot"]
-      }
-    }
-  },
-  "o": {
-    "parts": {
-      "sep": {
-        "words": ["O (vocative or imperative)"]
-      },
-      "interj": {
-        "words": ["hey! (calling somebody's attention)"]
-      }
-    }
-  },
-  "oko": {
-    "parts": {
-      "n": {
-        "words": ["eye"]
-      }
-    }
-  },
-  "olin": {
-    "parts": {
-      "n": {
-        "words": ["love"]
-      },
-      "mod": {
-        "words": ["love"]
-      },
-      "vt": {
-        "words": ["to love (a person)"]
-      }
-    }
-  },
-  "ona": {
-    "parts": {
-      "n": {
-        "words": ["he", "she", "it", "they"]
-      },
-      "mod": {
-        "words": ["his", "her", "its", "their"]
-      }
-    }
-  },
-  "open": {
-    "parts": {
-      "vt": {
-        "words": ["open", "turn on"]
-      }
-    }
-  },
-  "pakala": {
-    "parts": {
-      "n": {
-        "words": ["blunder", "accident", "mistake", "destruction", "damage", "breaking"]
-      },
-      "vt": {
-        "words": ["screw up", "fuck up", "botch", "ruin", "break", "hurt", "injure", "damage", "bungle", "spoil", "ruin"]
-      },
-      "vi": {
-        "words": ["screw up", "fall apart", "break"]
-      },
-      "interj": {
-        "words": ["damn! fuck!"]
-      }
-    }
-  },
-  "pali": {
-    "parts": {
-      "n": {
-        "words": ["activity", "work", "deed", "project"]
-      },
-      "mod": {
-        "words": ["active", "work-related", "operating", "working"]
-      },
-      "vt": {
-        "words": ["do", "make", "build", "create"]
-      },
-      "vi": {
-        "words": ["act", "work", "function"]
-      }
-    }
-  },
-  "palisa": {
-    "parts": {
-      "n": {
-        "words": ["long", "mostly hard object"],
-        "examples": ["rod", "stick", "branch"]
-      }
-    }
-  },
-  "pana": {
-    "parts": {
-      "vt": {
-        "words": ["give", "put", "send", "place", "release", "emit", "cause"]
-      },
-      "n": {
-        "words": ["giving", "transfer", "exchange"]
-      }
-    }
-  },
-  "pi": {
-    "parts": {
-      "sep": {
-        "words": ["of", "belonging to"]
-      }
-    }
-  },
-  "pilin": {
-    "parts": {
-      "n": {
-        "words": ["feelings", "emotion", "heart"]
-      },
-      "vi": {
-        "words": ["feel"]
-      },
-      "vt": {
-        "words": ["feel", "think", "sense", "touch"]
-      }
-    }
-  },
-  "pimeja": {
-    "parts": {
-      "mod": {
-        "words": ["black", "dark"]
-      },
-      "n": {
-        "words": ["darkness", "shadows"]
-      },
-      "vt": {
-        "words": ["darken"]
-      }
-    }
-  },
-  "pini": {
-    "parts": {
-      "n": {
-        "words": ["end", "tip"]
-      },
-      "mod": {
-        "words": ["completed", "finished", "past", "done", "ago"]
-      },
-      "vt": {
-        "words": ["finish", "close", "end", "turn off"]
-      }
-    }
-  },
-  "pipi": {
-    "parts": {
-      "n": {
-        "words": ["bug", "insect", "spider"]
-      }
-    }
-  },
-  "poka": {
-    "parts": {
-      "n": {
-        "words": ["side", "hip", "next to"]
-      },
-      "mod": {
-        "words": ["neighboring"]
-      },
-      "prep": {
-        "words": ["in the accompaniment of", "with"]
-      }
-    }
-  },
-  "poki": {
-    "parts": {
-      "n": {
-        "words": ["container", "box", "bowl", "cup", "glass"]
-      }
-    }
-  },
-  "pona": {
-    "parts": {
-      "n": {
-        "words": ["good", "simplicity", "positivity"]
-      },
-      "mod": {
-        "words": ["good", "simple", "positive", "nice", "correct", "right"]
-      },
-      "interj": {
-        "words": ["great! good! thanks! OK! cool! yay!"]
-      },
-      "vt": {
-        "words": ["improve", "fix", "repair", "make good"]
-      }
-    }
-  },
-  "pu": {
-    "parts": {
-      "n": {
-        "words": ["buying and interacting with the official Toki Pona book"]
-      },
-      "mod": {
-        "words": ["buying and interacting with the official Toki Pona book"]
-      },
-      "vt": {
-        "words": ["to apply (the official Toki Pona book) to…"]
-      },
-      "vi": {
-        "words": ["to buy and to read (the official Toki Pona book)"]
-      }
-    }
-  },
-  "sama": {
-    "parts": {
-      "mod": {
-        "words": ["same", "similar", "equal", "of equal status or position"]
-      },
-      "prep": {
-        "words": ["like", "as", "seem"]
-      },
-      "cont": {
-        "words": ["similarly", "in the same way that"]
-      }
-    }
-  },
-  "seli": {
-    "parts": {
-      "n": {
-        "words": ["fire", "warmth", "heat"]
-      },
-      "mod": {
-        "words": ["hot", "warm", "cooked"]
-      },
-      "vt": {
-        "words": ["heat", "warm up", "cook"]
-      }
-    }
-  },
-  "selo": {
-    "parts": {
-      "n": {
-        "words": ["outside", "surface", "skin", "shell", "bark", "shape", "peel"]
-      }
-    }
-  },
-  "seme": {
-    "parts": {
-      "oth": {
-        "words": ["what", "which", "wh- (question word)"]
-      }
-    }
-  },
-  "sewi": {
-    "parts": {
-      "n": {
-        "words": ["high", "up", "above", "top", "over", "on"]
-      },
-      "mod": {
-        "words": ["superior", "elevated", "religious", "formal"]
-      }
-    }
-  },
-  "sijelo": {
-    "parts": {
-      "n": {
-        "words": ["body", "physical state"]
-      }
-    }
-  },
-  "sike": {
-    "parts": {
-      "n": {
-        "words": ["circle", "wheel", "sphere", "ball", "cycle"]
-      },
-      "mod": {
-        "words": ["round", "cyclical"]
-      }
-    }
-  },
-  "sin": {
-    "parts": {
-      "mod": {
-        "words": ["new", "fresh", "another", "more"]
-      },
-      "vt": {
-        "words": ["renew", "renovate", "freshen"]
-      }
-    }
-  },
-  "sina": {
-    "parts": {
-      "n": {
-        "words": ["you"]
-      },
-      "mod": {
-        "words": ["your"]
-      }
-    }
-  },
-  "sinpin": {
-    "parts": {
-      "n": {
-        "words": ["front", "chest", "torso", "wall"]
-      }
-    }
-  },
-  "sitelen": {
-    "parts": {
-      "n": {
-        "words": ["picture", "image"]
-      },
-      "vt": {
-        "words": ["draw", "write"]
-      }
-    }
-  },
-  "sona": {
-    "parts": {
-      "n": {
-        "words": ["knowledge", "wisdom", "intelligence", "understanding"]
-      },
-      "vt": {
-        "words": ["know", "understand", "know how to"]
-      },
-      "vi": {
-        "words": ["know", "understand"]
-      },
-      "kama": ["learn", "study"]
-    }
-  },
-  "soweli": {
-    "parts": {
-      "n": {
-        "words": ["animal", "especially land mammal", "lovable animal"]
-      }
-    }
-  },
-  "suli": {
-    "parts": {
-      "mod": {
-        "words": ["big", "tall", "long", "adult", "important"]
-      },
-      "vt": {
-        "words": ["enlarge", "lengthen"]
-      },
-      "n": {
-        "words": ["size"]
-      }
-    }
-  },
-  "suno": {
-    "parts": {
-      "n": {
-        "words": ["sun", "light"]
-      }
-    }
-  },
-  "supa": {
-    "parts": {
-      "n": {
-        "words": ["horizontal surface"],
-        "examples": ["furniture", "table", "chair", "pillow", "floor"]
-      }
-    }
-  },
-  "suwi": {
-    "parts": {
-      "n": {
-        "words": ["candy", "sweet food"]
-      },
-      "mod": {
-        "words": ["sweet", "cute"]
-      },
-      "vt": {
-        "words": ["sweeten"]
-      }
-    }
-  },
-  "tan": {
-    "parts": {
-      "prep": {
-        "words": ["from", "by", "because of", "since"]
-      },
-      "n": {
-        "words": ["origin", "cause"]
-      }
-    }
-  },
-  "taso": {
-    "parts": {
-      "mod": {
-        "words": ["only", "sole"]
-      },
-      "conj": {
-        "words": ["but"]
-      }
-    }
-  },
-  "tawa": {
-    "parts": {
-      "prep": {
-        "words": ["to", "in order to", "towards", "for", "until"]
-      },
-      "n": {
-        "words": ["movement", "transportation"]
-      },
-      "mod": {
-        "words": ["moving", "mobile"]
-      },
-      "vi": {
-        "words": ["go", "leave", "walk", "travel", "move"]
-      },
-      "vt": {
-        "words": ["move", "displace"]
-      }
-    }
-  },
-  "telo": {
-    "parts": {
-      "n": {
-        "words": ["water", "liquid", "juice", "sauce"]
-      },
-      "vt": {
-        "words": ["water", "wash with water"]
-      }
-    }
-  },
-  "tenpo": {
-    "parts": {
-      "n": {
-        "words": ["time", "period of time", "moment", "duration", "situation"]
-      }
-    }
-  },
-  "toki": {
-    "parts": {
-      "n": {
-        "words": ["language", "talking", "speech", "communication"]
-      },
-      "vt": {
-        "words": ["say"]
-      },
-      "vi": {
-        "words": ["talk", "chat", "communicate"]
-      },
-      "interj": {
-        "words": ["hello! hi!"]
-      }
-    }
-  },
-  "tomo": {
-    "parts": {
-      "n": {
-        "words": ["indoor constructed space"],
-        "examples": ["house", "home", "room", "building"]
-      },
-      "mod": {
-        "words": ["urban", "domestic", "household"]
-      }
-    }
-  },
-  "tu": {
-    "parts": {
-      "mod": {
-        "words": ["two"]
-      },
-      "n": {
-        "words": ["duo", "pair"]
-      },
-      "vt": {
-        "words": ["double", "separate/cut/divide in two"]
-      }
-    }
-  },
-  "unpa": {
-    "parts": {
-      "n": {
-        "words": ["sex", "sexuality"]
-      },
-      "mod": {
-        "words": ["erotic", "sexual"]
-      },
-      "vt": {
-        "words": ["have sex with", "sleep with", "fuck"]
-      },
-      "vi": {
-        "words": ["have sex"]
-      }
-    }
-  },
-  "uta": {
-    "parts": {
-      "n": {
-        "words": ["mouth"]
-      },
-      "mod": {
-        "words": ["oral"]
-      }
-    }
-  },
-  "utala": {
-    "parts": {
-      "n": {
-        "words": ["conflict", "disharmony", "competition", "fight", "war", "battle", "attack", "blow", "argument", "physical or verbal violence"]
-      },
-      "vt": {
-        "words": ["hit", "strike", "attack", "compete against"]
-      }
-    }
-  },
-  "walo": {
-    "parts": {
-      "mod": {
-        "words": ["white", "light (colour)"]
-      },
-      "n": {
-        "words": ["white thing/part", "whiteness", "lightness"]
-      }
-    }
-  },
-  "wan": {
-    "parts": {
-      "mod": {
-        "words": ["one", "a"]
-      },
-      "n": {
-        "words": ["unit", "element", "particle", "part", "piece"]
-      },
-      "vt": {
-        "words": ["unite", "make one"]
-      }
-    }
-  },
-  "waso": {
-    "parts": {
-      "n": {
-        "words": ["bird", "winged animal"]
-      }
-    }
-  },
-  "wawa": {
-    "parts": {
-      "n": {
-        "words": ["energy", "strength", "power"]
-      },
-      "mod": {
-        "words": ["energetic", "strong", "fierce", "intense", "sure", "confident"]
-      },
-      "vt": {
-        "words": ["strengthen", "energize", "empower"]
-      }
-    }
-  },
-  "weka": {
-    "parts": {
-      "mod": {
-        "words": ["away", "absent", "missing"]
-      },
-      "n": {
-        "words": ["absence"]
-      },
-      "vt": {
-        "words": ["throw away", "remove", "get rid of"]
-      }
-    }
-  },
-  "wile": {
-    "parts": {
-      "vt": {
-        "words": ["to want", "need", "wish", "have to", "must", "will", "should"]
-      },
-      "n": {
-        "words": ["desire", "need", "will"]
-      },
-      "mod": {
-        "words": ["necessary"]
-      }
-    }
-  }
 }
