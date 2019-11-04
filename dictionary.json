@@ -2,7 +2,8 @@
     "a": {
       "parts": {
         "interj": {
-          "words": ["ah! ha! oh! ooh! aw! (emotion word)"]
+          "words": ["emotion word"],
+          "examples": ["ah!", "ha!", "oh!", "ooh!", "aw!"]
         }
       }
     },
@@ -621,7 +622,8 @@
     "mu": {
       "parts": {
         "interj": {
-          "words": ["woof! meow! moo! etc. (cute animal noise)"]
+          "words": ["cute animal noise"],
+          "examples": ["woof!", "meow!", "moo!"]
         }
       }
     },
@@ -798,7 +800,7 @@
     "pali": {
       "parts": {
         "n": {
-          "words": ["activity", "work", "deed", "projec"]
+          "words": ["activity", "work", "deed", "project"]
         },
         "mod": {
           "words": ["active", "work-related", "operating", "working"]
@@ -815,7 +817,7 @@
       "parts": {
         "n": {
           "words": ["long", "mostly hard object"],
-          "examples": ["rod", "stick", "branch"],
+          "examples": ["rod", "stick", "branch"]
         }
       }
     },
