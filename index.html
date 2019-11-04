@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Toki Pona Helper</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<style>
+			body {
+				background-color: gray;
+			}
+			/* body[data-ijocount="2"] #words .ijo .nena button.delete {
+				display: none;
+			} */
+			body #words .ijo:only-child .nena button.delete {
+				display: none;
+			}
+			.template {
+				display: none;
+			}
+			.ijo {
+				float: left;
+			}
+			.ijo select {
+				width: 10em;
+			}
+		</style>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div id="words">
+			<span class="ijo template">
+				<div><select class="nimi"></select></div>
+				<div><select class="word"></select></div>
+				<div class="nena">
+					<button class="add material-icons">add</button>
+					<button class="delete material-icons">delete</button>
+				</div>
+			</span>
+		</div>
+	</body>
+</html>
